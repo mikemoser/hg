@@ -10,7 +10,8 @@ deploy:
   secret_access_key:
     secure: 6Pc5Sv+kx7YD3uHcE1EKhlpbzrjEQENV03DasYlmsan4rlH5CmsDnWJmMf4dQn/hP0LI8sZZRVZky5YYXZHt9FRneSKYkKBGvq/ostxLDpAJFxTSBmu9Gj5oKX8NNwuwWvtkEVwM9RTHRRwSLcfArMui3mKczuwQ0dfvP/p+X/GXiv0dKqg3nZJyn5ADE/qg2tFlgtIyDVn71XcpX7YlB00iVmKFsr42I8Nn48D7M4+ygfG8zEIcSC8KNk/mSV0eYZuGBbnJxs7ItwxcKi5IwrepDuZwrcR+93GS4aA7hcyD2djKuv1SVqKqlFBjDkU+I6paePlA8wyQJEapGTr27oAOVyX0E2TWtY9qvy92YFo0jjBiO+PgmwnqCLff/glX8bgfOk78/T/BYW/+mM6w9FbwoPOd3chb+5EhWTevylxN77yQoi5OB0ndCAqGFqo3BwdqH6Oz0XUnp1PRgNX28n5IBPA890zL6Rh6MNAFVMBJfKRTZe+uih2SWHr02KDI4ATyG1TqVv4Zv9a1B0Oq6nd4OaDk6teMT94e0crWl3GCdWnMpv3XQMJtC8fX0c4qJvDEKO8kGboLZ+ZcRO1JLlNupSvlsOOaLODHFeE0DzFVtdurbI6ohHkGcevgLXCP2tjoX2608wnvO/mxepGL0x+tXkDQJ1tfFpacVNRTBV8=
   bucket: humangravity-prod
-  local-dir: build
+  local_dir: build
   acl: public_read
+  skip_cleanup: true
   on:
     branch: master
