@@ -1,9 +1,9 @@
 $("#fakeLoader").fakeLoader({
 
-    timeToHide: 5000, //Time in milliseconds for fakeLoader disappear
+    timeToHide: 1000, //Time in milliseconds for fakeLoader disappear
     zIndex: 999999, // Default zIndex
     spinner: "spinner6", //Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7' 
-    bgColor: "#51D1C4", //Hex, RGB or RGBA colors
+    bgColor: "#e77817", //Hex, RGB or RGBA colors
 });
 
 
